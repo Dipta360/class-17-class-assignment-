@@ -14,7 +14,7 @@ body{
 }
 
 .container {
-    max-width: 850px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -88,7 +88,7 @@ a {
     color: rgb(255, 255, 255);
     display: block;
     padding: 10px 20px;
-    font-size: 23px;
+    font-size: 20px;
     font-family: arial;
     position: relative;
 }
@@ -105,6 +105,11 @@ a {
 
 .header-menu ul li a:hover::after {
     width: 61%;
+}
+
+.header-menu ul li:nth-child(3) a:hover::after{
+    width: 65%;
+    left: 18%;
 }
 
 .header-menu ul li a span {
@@ -138,6 +143,10 @@ a {
     padding: 0 8px;
 }
 
+.header-menu ul li ul li:first-child a{
+    border-top:4px solid #fff
+}
+
 .header-menu ul li ul li:hover a {
     background: #fff;
     color: #000;
@@ -162,16 +171,17 @@ a {
     background-size: cover;
     background-position: top;
     padding: 200px;
+    padding-top: 174px;
 }
 
 .banner-section h2 {
     margin-bottom: 10px;
-    font-size: 41px;
+    font-size: 45px;
 }
 .banner-section p {
-    font-size: 19px;
+    font-size: 21px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 17px;
 }
 
 .banner-section span {
@@ -228,18 +238,20 @@ a {
 
 .about-section h1 {
     margin-bottom: 18px;
-    font-size: 38px;
+    font-size: 56px;
     position: relative;
+    color: #e8dfda;
+    text-shadow: 1px 0px 6px rgb(255 255 255 / 83%);
 }
 
 .about-section h1::after {
     content: '';
-    width: 24%;
-    height: 2px;
-    background: #fff;
+    width: 33.5%;
+    height: 3px;
+    background: #e8dfda;
     position: absolute;
     top: 100%;
-    left: 38%;
+    left: 33%;
 }
 
 .a-text {
@@ -264,32 +276,33 @@ a {
 }
 
 .content-section h1 {
-    font-size: 38px;
-    color: #FFF;
+    font-size: 56px;
+    color: #e8dfda;
     margin-bottom: 10px;
     position: relative;
+    text-shadow: 1px 0px 6px rgb(255 255 255 / 83%);
 }
 
 .content-section h1::after {
     content: '';
-    width: 16%;
-    height: 2px;
-    background: #fff;
+    width: 23%;
+    height: 3px;
+    background: #e8dfda;
     position: absolute;
     top: 100%;
-    left: 42%;
+    left: 39%;
 }
 
 .content-section h2 {
-    color: #fff;
-    font-size: 28px;
+    color: #dfe0e1;
+    font-size: 35px;
     margin-bottom: 15px;
 }
 
 .content-section-text {
     width: 630px;
     margin: auto;
-    color: #fff;
+    color: #cccdcd;
     font-size: 17px;
     line-height: 21px;
     margin-bottom: 50px;
@@ -323,12 +336,13 @@ a {
     font-size: 30px;
     margin-bottom: 14px;
     margin-left: 48px;
+    color: #8093a7;
 }
 
 .b-content p {
     font-size: 17px;
     line-height: 1.4em;
-    color: #8b8a8a;
+    color: #90a1b0;
 }
 
 /* product section */
@@ -347,12 +361,14 @@ a {
 .product-p {
     font-size: 18px;
     margin-bottom: 30px;
+    color: #e7e6e7;
 }
 
 .identity {
     font-size: 18px;
     margin-bottom: 10px !important;
     display: block;
+    color: #fbfcfa;
 }
 
 .photo {
@@ -369,6 +385,7 @@ a {
     margin: 7px 0 !important;
     display: inline-block;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .photo-gellary {
@@ -396,18 +413,18 @@ a {
 .team-section h2 {
     color: #fff;
     margin-bottom: 25px;
-    font-size: 30px;
+    font-size: 35px;
     position: relative;
 }
 
 .team-section h2::after {
     content: '';
-    width: 30%;
-    height: 2px;
-    background: #fff;
+    width: 34.5%;
+    height: 3px;
+    background: #e3ddd7;
     position: absolute;
     top: 100%;
-    left: 35%;
+    left: 31.8%;
 }
 
 .team-image {
@@ -453,8 +470,9 @@ a {
 }
 
 .work h2 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 10px;
+    color: #e4e6e8;
 }
 
 .work-text {
@@ -462,10 +480,11 @@ a {
     margin: auto;
     font-size: 17px;
     margin-bottom: 20px;
+    color: #d9d9d9;
 }
 
 .work span a {
-    color: #fff;
+    color: #fbfefe;
     background: #00bc9c;
     display: inline-block;
     padding: 15px 20px;
